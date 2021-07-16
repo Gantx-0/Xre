@@ -19,10 +19,12 @@ export const help = (client: Client, command?: string): string => {
        return `╭────┈ ↷
 ┃□│✎┊ *Ayanoukoji」*
 ┃□│╭────────╯
-┃□││❏OWNER   : *Gantx-Hckr*
-┃□││❏OWNER # : *wa.me/263715606285*
-┃□││❏NAME    : *Ayanoukoji*
-┃□││❏Team    : *Team_Anonymous_263*  
+👋️ Konnichiwa!, *I am Ayanoukoji*
+  ╭────┈
+  ❏ *Owner: Gantx_Hckr*
+  ❏ *Contact: https://wa.me/2663715606285*
+  ❏ *Github:  https://github.com/Gantx-Hckr/4nonym0us* 
+  ───────╯
 ┃□││❏PREFIX  : 「 ${client._config.prefix} 」
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎	
 
@@ -33,6 +35,7 @@ export const help = (client: Client, command?: string): string => {
 > Github: *https://github.com/Gantx-0*
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
 
+🌟️ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧* 🌟️
 ─────────────────┈ ❁۪۪
 ❏ *📌General-Commands📌* 」
 ╰─❁۪۪
