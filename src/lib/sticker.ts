@@ -11,8 +11,8 @@ const webp = require('node-webpmux')
 export const createSticker = async (
     data: Buffer,
     crop: boolean,
-    author = 'Xre',
-    pack = 'WhatsApp Botto'
+    author = 'Gantx-Hckr',
+    pack = 'I Am So Shy'
 ): Promise<IReply> => {
     const sticker = new Sticker(data, {
         crop,
