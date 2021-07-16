@@ -17,12 +17,11 @@ export const help = (client: Client, command?: string): string => {
     }
 
        return `╭────┈ ↷
-┃□│✎┊ *「👾ZeD-Bot👾」*
+┃□│✎┊ *Ayanoukoji」*
 ┃□│╭────────╯
-┃□││❏OWNER   : *@Hxcker_263*
-┃□││❏OWNER # : *wa.me/+263718635356*
-┃□││❏NAME    : *${client._config.name}*
-┃□││❏GROUP   : *${group.metadata.subject}*
+┃□││❏OWNER   : *Gantx-Hckr*
+┃□││❏OWNER # : *wa.me/263715606285*
+┃□││❏NAME    : *Ayanoukoji*
 ┃□││❏Team    : *Team_Anonymous_263*  
 ┃□││❏PREFIX  : 「 ${client._config.prefix} 」
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎	
@@ -30,7 +29,8 @@ export const help = (client: Client, command?: string): string => {
 ─────────────────┈ ❁۪۪
 ❏ *👑Support-Owner👑* 」
 ─ ↷
-> Folow Bot-Owner On-IG: *@hxcker_263*
+> Follow Bot-Owner On-IG: *@cybxrknght*
+> Github: *https://github.com/Gantx-0*
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
 
 ─────────────────┈ ❁۪۪
@@ -108,18 +108,16 @@ export const help = (client: Client, command?: string): string => {
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
 
 ─────────────────┈ ❁۪۪──
-┃□│✎┊ *「👾ZeD-Bot👾」*
+┃□│✎┊ *「�Xre-Botto」*
 ┃□│╭────────╯   
-┃□││❏*Hxcker_263*
-┃□││❏R3tr0_263
-┃□││❏BL4Z3_263
-╰─────────────────┈ ❁ཻུ۪۪⸙͎
-║█║▌║█║▌│║▌║▌█║
-║█║▌║█║▌│║▌║▌█║
+┃□││❏Gantx-Hckr
+┃□││❏https://github.com/Gantx-0
+┃□││❏https://github.com/Gantx-Hckr
+╰─────────────────┈ ❁ཻུ۪۪⸙͎║
 ---ZIM-D4RK-4RMY---
 \n📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_
 
 Hope you have a great day! \n
 
-🎩🐺✌....Peace`
+Synthesized-Infinity-Edit`
 }
