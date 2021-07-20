@@ -17,7 +17,7 @@ export const help = (client: Client, command?: string): string => {
     }
 
        return `╭────┈ ↷
-👋 Konnichiwa! (♥w♥) *${pushname}*,
+👋 Konnichiwa! (♥w♥) 
 
  ──────────────┈ ❁۪۪
 🎴 *Bot Prefix* - *${prefix}*
