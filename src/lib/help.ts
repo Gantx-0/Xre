@@ -20,9 +20,9 @@ export const help = (client: Client, command?: string): string => {
 👋 Konnichiwa! (♥w♥) 
 
  ──────────────┈ ❁۪۪
-🎴 *Bot Prefix* - *${prefix}*
+🎴 *Bot Prefix*「 ${client._config.prefix} 」
 🎴 *Github:* *https://github.com/Gantx-Hckr*
-❏  *Cringe-edit* - By "Simp Freakin Sama"
+❏  *Cringe-edit* - By Simp Freakin Sama
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
 🌟 *𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧* 🌟
 
