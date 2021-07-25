@@ -115,21 +115,7 @@ export class Message {
                 case 'eval':
                     if (mod) return void eval(slicedJoinedArgs)
                     break
-                case 'haigusha': 
-        	         const waifu = await waifuclient.getRandom()
-        	         await this.client.sendFileFromUrl(message.from, waifu.data.display_picture, 'haugusha.jpg', `❤️ *Name : ${waifu.data.name}*\n\n💎️ Description : ${waifu.data.description}\n\n💚️ Source : ${waifu.data.series.name}\n\n✨️ URL: ${waifu.data.url}`, message.id)
-                     break 
-                case 'neko':          
-                     q2 = Math.floor(Math.random() * 900) + 300;
-                     q3 = Math.floor(Math.random() * 900) + 300;
-                     await this.client.sendFileFromUrl(from, 'http://placekitten.com/'+q3+'/'+q2, 'neko.png','Neko 🌠️', id)
-                     break 
-                case 'meme':
-                     const response = await axios.get('https://meme-api.herokuapp.com/gimme/wholesomeanimemes');
-                     const { postlink, title, subreddit, url, nsfw, spoiler } = response.data
-                     await this.client.sendFileFromUrl(from, `${url}`, 'meme.jpg', `${title}`)
-                     break    
-                    
+                      
                     
                 case 'join':
                     return void this.client.reply(
