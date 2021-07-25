@@ -49,7 +49,9 @@ export const help = (client: Client, command?: string): string => {
 │ 📝 *${client._config.prefix}character*
 │ 📝 *${client._config.prefix}subred*
 │ 📝 *${client._config.prefix}wallpaper*
-│ 📝 *${client._config.prefix}gify*
+│ 📝 *${client._config.prefix}haigusha*
+│ 📝 *${client._config.prefix}neko*
+│ 📝 *${client._config.prefix}meme*
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎
 ╭─「 ♦️Media-Commands♦️ 」
 │ 
