@@ -22,7 +22,7 @@ export const help = (client: Client, command?: string): string => {
 │ 
 ┠❥ *「Bot Prefix」* - *「 ${client._config.prefix} 」*
 │ 
-┠❥ *「Owner」* *${prefix}https://wa.me/263715606285*
+┠❥ *「Owner」* *https://wa.me/263715606285*
 ┃□│
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎	
 ─────────────────┈ ❁۪۪
