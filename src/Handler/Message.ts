@@ -405,14 +405,9 @@ export class Message {
             case 'test':
                 return void this.client.reply(
                         from,
-                        await this.client.getUserProfile(
-                            tag,
-                            tag === sender ? { user, data: userData } : await this.client.getUser(tag),
-                            group.admins.includes(tag)
-                        ),
+                        await this.client.getUserProfile(),
                         M
                     )
-                log = true
                 break
         }
         if (log) {
