@@ -44,9 +44,10 @@ export class EventHandler {
 
     leave = async (event: IEvent): Promise<void> => {
         const user = event.participants[0]
+        const picture = await this.client.getPfp(event.jid)
         return void this.client.sendMessage(
             event.jid,
-            `Goodbye ${
+            `Sayanora, we won't miss you ${
                 this.client.contacts?.[user]?.['notify'] ||
                 this.client.contacts?.[user]?.['vname'] ||
                 this.client.contacts?.[user]?.['name'] ||
