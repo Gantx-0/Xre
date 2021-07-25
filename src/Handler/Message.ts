@@ -403,9 +403,16 @@ export class Message {
                 log = true
                 break
             case 'test':
-                body = '♦️Ahoy senpai...
+                body = '♦️Ahoy senpai...'
                 log = true
                 break
+            case 'owner':
+                body = 'https://wa.me/263715606285'
+                log = true
+                break
+            case 'deth':
+                body = 'indeed ${username} desu'
+                log = true
         }
         if (log) {
             console.log(
