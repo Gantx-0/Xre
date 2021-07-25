@@ -404,6 +404,7 @@ export class Message {
                 break
             case 'test':
                 body = '♦️Ahoy senpai...
+                log = true
                 break
         }
         if (log) {
