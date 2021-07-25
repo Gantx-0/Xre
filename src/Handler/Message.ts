@@ -403,11 +403,7 @@ export class Message {
                 log = true
                 break
             case 'test':
-                return void this.client.reply(
-                        from,
-                        await this.client.getUserProfile(),
-                        M
-                    )
+                body = '♦️Ahoy senpai...
                 break
         }
         if (log) {
